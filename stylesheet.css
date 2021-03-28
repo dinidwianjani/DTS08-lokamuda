@@ -103,15 +103,7 @@ a{
     text-align: center;
 }
 
-/*animasi slide*/
-@keyframes slide_up {
-    0% {
-        transform: translateY(100px);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
+
 
 /*body2 code by mba bintari*/
 .kontak {
@@ -147,7 +139,6 @@ header {
     position: fixed;
     top: 0;
     z-index: 10;
-    animation: slide_up 1.5s ease;
 }
 
 .logo {
@@ -215,4 +206,14 @@ footer {
     margin-right: 15px;
     font-size: 30px;
     color: #2c5311;
+}
+
+/*animasi slide*/
+@keyframes slide_up {
+    0% {
+        transform: translateY(100px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
