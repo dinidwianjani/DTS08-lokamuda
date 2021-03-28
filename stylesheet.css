@@ -69,3 +69,79 @@ button{
     color: #fff;
     padding: 10px;
 }
+
+header {
+    width: 100%;
+    height: 65px;
+    background-color: rgba(198, 197, 193, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 124px;
+    margin: 20px 0;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    background-color: rgba(44, 83, 17, 0.3);
+    transition: all 0.5s;
+}
+
+.header-right:hover {
+    background-color: rgba(44, 83, 17, 0.9);
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: #c6c5c1;
+    padding-top: 30px;
+    padding-bottom: 15px
+}
+
+.footer-left {
+    float: left;
+    margin: 25px 25px;
+}
+
+.footer-left img {
+    width: 200px;
+}
+
+.footer-left p {
+    font-family: Futura;
+    font-size: 13px;
+    color: #2c5311;
+    padding-left: 25px;
+}
+
+.footer-right {
+    float: right;
+    margin: 25px 25px;
+}
+
+.footer-right p {
+    font-family: Futura;
+    font-size: 18px;
+    color: #2c5311;
+}
+
+.fab {
+    margin-right: 15px;
+    font-size: 30px;
+    color: #2c5311;
+}
