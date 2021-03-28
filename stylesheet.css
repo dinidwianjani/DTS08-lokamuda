@@ -115,13 +115,13 @@ a{
 
 .kontak h1{
     padding-top: 80px;
-    animation: slide_up 1.5s ease;
+    animation: slide_up 3.7s ease;
 }
 .kontak p{
     font-size: 20px;
     padding-top: 10px;
     line-height: 5px;
-    animation: slide_up 1.5s ease;
+    animation: slide_up 4.5s ease;
 }
 
 button{
