@@ -78,9 +78,10 @@ body{
 }
 
 .menu-icon img{
-    height: 180px;
+    height: 160px;
     animation: slide_up 3s ease;
     position: relative;
+    margin-top: 35px;
 }
 
 .center {
