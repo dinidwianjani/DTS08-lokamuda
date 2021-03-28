@@ -80,6 +80,10 @@ body{
     animation: slide_up 3s ease;
 }
 
+a{
+    color: inherit;
+}
+
 .text-contents {
     display: inline-block;
     margin-top: 15px;
